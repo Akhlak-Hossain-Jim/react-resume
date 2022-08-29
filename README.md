@@ -4,7 +4,7 @@ This project is to show your resume on the web easily. [demo](https://resume.ahj
 
 ## How to create your own?
 
-this is a guide to deploy your own app only using browser.
+this is a guide to deploy your own app only using the browser.
 
 - First you need to fork the repository. you can click [here](https://github.com/Akhlak-Hossain-Jim/react-resume/fork) as well.
 - Navigate to `src/data/data.js` or click [here](/tree/main/src/data/data.js)
@@ -16,7 +16,7 @@ this is a guide to deploy your own app only using browser.
 - Connect your github repo and click `Deploy site` button.
 - It will take you to the project page click `site setting` and then click the `Change site name` button and put your name there and you can share the link to every where to showcase your resume.
 
-You can also edit and deploy manually,
+You can also edit and deploy manually, heres how:
 
 ### `npm start`
 

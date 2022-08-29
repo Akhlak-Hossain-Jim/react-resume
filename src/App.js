@@ -33,7 +33,7 @@ export default function App() {
 
 const Container = styled.main`
   width: 216mm;
-  height: 279mm;
+  min-height: 279mm;
   margin: 5mm auto;
   padding: 32px;
   overflow: hidden;

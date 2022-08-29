@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+# Resume web template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is to show your resume on the web easily. [demo](https://resume.ahjim.com). Don't forget to give a star🙂.
 
-## Available Scripts
+## How to create your own?
 
-In the project directory, you can run:
+this is a guide to deploy your own app only using browser.
+
+- First you need to fork the repository. you can click [here](https://github.com/Akhlak-Hossain-Jim/react-resume/fork) as well.
+- Navigate to `src/data/data.js` or click [here](/tree/main/src/data/data.js)
+- In the upper right corner of the file view, click 🖋️ to open the file editor. ![demo edit image](https://docs.github.com/assets/cb-64898/images/help/repository/edit-file-edit-button.png)
+- On the Edit file tab, change all the details with your owns'
+- Navigate to the bottom of the page and save it.
+- Then go to [Netlify](https://app.netlify.com) Sign-up for free.
+- Navigate to import an existing project for [here](https://app.netlify.com/start).
+- Connect your github repo and click `Deploy site` button.
+- It will take you to the project page click `site setting` and then click the `Change site name` button and put your name there and you can share the link to every where to showcase your resume.
+
+You can also edit and deploy manually,
 
 ### `npm start`
 
@@ -28,16 +40,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 

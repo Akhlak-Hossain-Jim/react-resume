@@ -1,22 +1,33 @@
 # Resume web template
 
-This project is to show your resume on the web easily. [demo](https://resume.ahjim.com). Don't forget to give a star🙂.
+This project is to show your resume on the web easily. [demo](https://resume.ahjim.com). Don't forget to give a star⭐🙂.
 
 ## How to create your own?
 
 ### from the browser
 
-this is a guide to deploy your own app only using the browser.
+this is a guide to deploying your own app only using the browser.
 
-- First you need to fork the repository. you can click [here](https://github.com/Akhlak-Hossain-Jim/react-resume/fork) as well.
+- First, you need to fork the repository. you can click [here](https://github.com/Akhlak-Hossain-Jim/react-resume/fork) as well.
 - Navigate to `src/data/data.js` or click [here](/src/data/data.js)
 - In the upper right corner of the file view, click 🖋️ to open the file editor. ![demo edit image](https://docs.github.com/assets/cb-64898/images/help/repository/edit-file-edit-button.png)
-- On the Edit file tab, change all the details with your owns'
+- On the Edit file tab, change all the details with your own's
 - Navigate to the bottom of the page and save it.
-- Then go to [Netlify](https://app.netlify.com) Sign-up for free.
-- Navigate to import an existing project for [here](https://app.netlify.com/start).
-- Connect your github repo and click `Deploy site` button.
-- It will take you to the project page click `site setting` and then click the `Change site name` button and put your name there and you can share the link to every where to showcase your resume.
+
+#### host on netlify
+
+- Go to [Netlify](https://app.netlify.com) Sign-up for free.
+- Navigate to import an existing project or [here](https://app.netlify.com/start).
+- Connect your github repo and click the `Deploy site` button.
+- It will take you to the project page click the `site setting` and then click the `Change site name` button and put your name there
+
+#### host on vercel
+
+- Go to [Vercel.com](https://vercel.com/dashboard) signup using github
+- Navigate to `Add new` `Project` or click [here](https://vercel.com/new)
+- you should see your repos on the left side click `import` on the repo you want to deploy and on the next page click the `deploy` button
+
+and that's it you can share the link everywhere to showcase your resume.
 
 ### from local
 

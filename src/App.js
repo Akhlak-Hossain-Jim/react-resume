@@ -39,9 +39,12 @@ const Container = styled.main`
   overflow: hidden;
   position: relative;
   page-break-after: always;
+  color: ${({ color }) => (color ? color : "#000")};
   background-color: ${({ pageColor }) => (pageColor ? pageColor : "white")};
   box-shadow: 0 0.5mm 2mm rgb(0 0 0 / 30%);
-  color: ${({ color }) => (color ? color : "#000")};
+  @media print {
+    box-shadow: none;
+  }
   a {
     color: ${({ linkColor }) => (linkColor ? linkColor : "#000")};
   }

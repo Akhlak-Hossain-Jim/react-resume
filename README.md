@@ -9,8 +9,8 @@ This project is to show your resume on the web easily. [demo](https://resume.ahj
 this is a guide to deploy your own app only using the browser.
 
 - First you need to fork the repository. you can click [here](https://github.com/Akhlak-Hossain-Jim/react-resume/fork) as well.
-- Navigate to `src/data/data.js` or click [here](/tree/main/src/data/data.js)
-- In the upper right corner of the file view, click 🖋️ to open the file editor. ![demo edit image](https://docs.github.com/assets/cb-64898/images/help/repository/edit-file-edit-button.png)
+- Navigate to `src/data/data.js` or click [here](/blob/main/src/data/data.js)
+- In the upper right corner of the file view, click 🖋️ to open the file editor or click [here](/blob/main/src/data/data.js). ![demo edit image](https://docs.github.com/assets/cb-64898/images/help/repository/edit-file-edit-button.png)
 - On the Edit file tab, change all the details with your owns'
 - Navigate to the bottom of the page and save it.
 - Then go to [Netlify](https://app.netlify.com) Sign-up for free.

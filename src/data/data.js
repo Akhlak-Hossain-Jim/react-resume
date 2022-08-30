@@ -1,10 +1,12 @@
-// iconType can only be:
+// iconType for headerLinks can only be:
 //      "web"
 //      "call"
 //      "mail"
 //      "github"
 //      "linkedin"
 //default is web
+
+// for work experience logo put a link or put your image on `/public/images/` folder and put a path here
 
 const DATA = {
   background: "",
@@ -43,7 +45,7 @@ const DATA = {
   ],
   WorkExperience: [
     {
-      logo: "https://media-exp1.licdn.com/dms/image/C4D0BAQFcg5sljjnhLw/company-logo_200_200/0/1646686936374?e=1669852800&v=beta&t=lNw4rU0Al2QPQ3Xl8i79zPTG06miMszNHSnjNKNTtkk",
+      logo: "/images/assetmantle.webp",
       name: "AssetMantle.one",
       location: "Remote",
       timePeriod: "Feb 2022-Present",
@@ -74,7 +76,7 @@ const DATA = {
       ],
     },
     {
-      logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQGbbG7bogsBxg/company-logo_200_200/0/1617195450709?e=1669852800&v=beta&t=8b_DMoAzW5XXtT_VWgMbIhBCemvhIgWk6xZ-r6E99ok",
+      logo: "/images/alphapromed.webp",
       name: "AlphaProMed",
       location: "Remote",
       timePeriod: "Jun 2021-Jan 2022",
@@ -85,7 +87,7 @@ const DATA = {
       ],
     },
     {
-      logo: "",
+      logo: "/images/woman.webp",
       name: "Woman Opportunities",
       location: "Dhaka, Bangladesh",
       timePeriod: "Feb 2021 - Jan 2022",
@@ -96,7 +98,7 @@ const DATA = {
       ],
     },
     {
-      logo: "",
+      logo: "/images/aamartaka.webp",
       name: "Aamartaka.com",
       location: "Dhaka, Bangladesh",
       timePeriod: "Jun 2021 - Aug 2022",
@@ -107,7 +109,7 @@ const DATA = {
       ],
     },
     {
-      logo: "",
+      logo: "/images/parthibassociates.webp",
       name: "Parthib Associates",
       location: "Dhaka, Bangladesh",
       timePeriod: "Nov 2020 - Dec 2020",
@@ -117,7 +119,7 @@ const DATA = {
       ],
     },
     {
-      logo: "",
+      logo: "/images/shuvrojaya.webp",
       name: "Shuvro Jaya",
       location: "Dhaka, Bangladesh",
       timePeriod: "Oct 2019 - Oct 2020",
@@ -206,6 +208,24 @@ const DATA = {
     },
   ],
   Projects: [
+    {
+      name: "Web OS",
+      url: "https://ubuntu.ahjim.com",
+      using: "Reactjs, Styled-Components",
+      date: "2022",
+      details: [
+        "Created a creative portfolio that have some of preview functionality of an OS",
+      ],
+    },
+    {
+      name: "Open Islamic app",
+      url: "https://github.com/OpenIslamicApp/prayer-time",
+      using: "Reactjs, Styled-Components",
+      date: "2022",
+      details: [
+        "Created to build some open source app for a targeted community",
+      ],
+    },
     {
       name: "Web Book app",
       url: "https://book-the-waves-virginia-woolf.web.app/",
